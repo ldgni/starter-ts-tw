@@ -1,3 +1,3 @@
-# starter-ts-tw
+# Starter Vite
 
-A starter template with [Typescript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
+A [Vite](https://vite.dev/) starter template with [Typescript](https://www.typescriptlang.org/), [React Router](https://reactrouter.com/) and [Tailwind CSS](https://tailwindcss.com/).
