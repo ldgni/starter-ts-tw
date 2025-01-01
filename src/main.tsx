@@ -6,17 +6,12 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 
 import Home from "@/routes/home";
 import NotFound from "@/routes/not-found";
-import Secret from "@/routes/secret";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
     errorElement: <NotFound />,
-  },
-  {
-    path: "/secret",
-    element: <Secret />,
   },
 ]);
 
