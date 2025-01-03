@@ -1,11 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
 import { Loader } from "lucide-react";
 
+import { fetchRandomImage } from "@/api/fetch-random-image";
+import Button from "@/components/ui/button";
+
 export default function Randomizer() {
   const { data, error, isFetching, refetch } = useQuery({
     queryKey: ["randomImage"],
-    queryFn: () =>
-      fetch("https://picsum.photos/200/300").then((res) => res.url),
+    queryFn: fetchRandomImage,
   });
 
   return (
@@ -23,11 +25,7 @@ export default function Randomizer() {
           />
         )}
       </div>
-      <button
-        onClick={() => refetch()}
-        className="rounded bg-slate-500 px-4 py-2 text-white opacity-75 transition-opacity duration-300 hover:opacity-100">
-        Randomize
-      </button>
+      <Button onClick={() => refetch()}>Randomize</Button>
     </div>
   );
 }
