@@ -4,13 +4,11 @@ import Container from "@/components/container";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 
-export default function Root() {
+export default function Root({ children }: { children?: React.ReactNode }) {
   return (
     <Container>
       <Header />
-      <main>
-        <Outlet />
-      </main>
+      <main className="grow">{children ?? <Outlet />}</main>
       <Footer />
       <ScrollRestoration />
     </Container>
