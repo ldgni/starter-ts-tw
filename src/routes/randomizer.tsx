@@ -20,7 +20,7 @@ export default function Randomizer() {
         ) : (
           <img
             src={data}
-            alt="Random"
+            alt="Random image"
             className="rounded-sm border-2 border-black"
           />
         )}
