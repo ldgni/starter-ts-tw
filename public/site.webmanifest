@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Vite Starter",
+  "short_name": "Vite Starter",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
