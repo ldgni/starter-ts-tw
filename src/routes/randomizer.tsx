@@ -21,7 +21,7 @@ export default function Randomizer() {
           <img
             src={data}
             alt="Random image"
-            className="rounded-sm border-2 border-black"
+            className="rounded-sm border-2 border-dark dark:border-light"
           />
         )}
       </div>
