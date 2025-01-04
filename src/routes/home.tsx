@@ -1,4 +1,4 @@
-import placeholderImage from "@/assets/images/placeholder-img.webp";
+import placeholderImage from "@/assets/images/placeholder-img.jpg";
 
 export default function Home() {
   return (
