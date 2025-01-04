@@ -33,7 +33,7 @@ export default function Home() {
       <img
         src={placeholderImage}
         alt="Placeholder image"
-        className="h-60 w-full object-cover"
+        className="h-60 w-full rounded-sm object-cover"
       />
     </>
   );
