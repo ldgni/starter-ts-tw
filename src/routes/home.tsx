@@ -1,6 +1,6 @@
 import placeholderImage from "@/assets/images/placeholder-img.webp";
 
-export default function Home() {
+export default function HomeRoute() {
   return (
     <>
       <p className="mb-4">

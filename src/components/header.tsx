@@ -6,8 +6,8 @@ const navLinks = [
     label: "Home",
   },
   {
-    href: "/randomizer",
-    label: "Randomizer",
+    href: "/about",
+    label: "About",
   },
 ];
 
